@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraria's classes</title>
+    <link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+		/>
+    <link rel="stylesheet" href="dist/output.css" />
+    <style></style>
+    
+</head>
+<body class="bg-darkGrayishBlue">
+    <style>
+    body{
+        background: rgb(180,187,187);
+    }
+    </style>
+    <nav class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between"> 
+            <div class="pt-2 ">
+                <img class="" src="img/1.png" height="180" width="200" alt="">
+            </div>
+            <H5 class=" pt-5 py-8 px-6 text-lg text-brightRed">Классы террарии</H5>
+
+        <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-darkGrayishBlue">Воин</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Стрелок</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Маг</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Призыватель</a>
+        </div>
+        
+       
+    </div>
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10">
+                <a href="#Warrior">Воин</a>
+                <a href="#Shooter">Стрелок</a>
+                <a href="#Mag">Маг</a>
+                <a href="#Summoner">Призыватель</a>
+            </div>
+        </div>
+    </nav>
+ <div class=" " id="Warrior">
+    <H1 class="pt-5 py-5 px-5 text-center">Воин</H1>
+    <img class="mx-auto my-6"  height="220" width="220" src="img/warrior.png" alt="">
+    <p class="px-4 max-w-3xl text-center"> Воин  - класс, использующий оружие ближнего боя.
+        Отличается от других классов самым большим показателем защиты и стабильным количеством урона.
+        В кооперативе задачей является принятие урона на себя, защита менее бронированных классов.</p>
+    <div class="text-lg py-8 px-6">Арсенал оружия:
+        <a href="#" class="flex text-brightRed">Кинжалы;</a>
+        <a href="#" class="flex text-brightRed">Мечи;</a>
+        <a href="#" class="flex text-brightRed">Копья;</a>
+        <a href="#" class="flex text-brightRed">Оружия на цепи;</a>
+        <a href="#" class="flex text-brightRed">Йо-йо;</a>
+        <a href="#" class="flex text-brightRed">Бумеранги.</a>
+    </div>
+ </div>
+
+
+ <div class="" id=""Shooter>
+    <H1 class="pt-5 py-5 px-5 text-center">Стрелок</H1>
+    <img class="my-6 mx-auto" height="220" width="220" src="img/shooter.png" alt="">
+    <p class="px-4 max-w-3xl text-center">Стрелок — класс, использующий оружие дальнего боя.
+        Отличается от других классов тем, что ему нужны боеприпасы для атаки. Имеет среднюю степень защиты.
+        В кооперативе задачей является нанесение урона на расстоянии, вместе с магом. 
+    <div class="text-lg py-8 px-6">Арсенал оружия:
+        <a href="#" class="flex text-brightRed">Луки;</a>
+        <a href="#" class="flex text-brightRed">Арбалеты;</a>
+        <a href="#" class="flex text-brightRed">Огнестрельное оружие;</a>
+        <a href="#" class="flex text-brightRed">Нестандартное оружие;</a>
+        <a href="#" class="flex text-brightRed">Ракетницы;</a>
+        <a href="#" class="flex text-brightRed">Метательное оружие.</a>
+    </div>
+ </div>
+
+ <section id="Mag">
+    <H1 class="pt-5 py-5 px-5 text-center">Маг</H1>
+    <img class="my-6 mx-auto" height="220" width="220" src="img/6.png" alt="">
+    <p class="px-4 max-w-3xl text-center"> Маг - класс, использующий оружие, наносящее магический урон, а также специальную броню,которая повышает силу магических атак,
+        запас маны, шанс критического удара магическими атаками.Отличается от других классов пониженной защитой и высоким уроном. 
+        Для атаки необходима мана, которая автоматически пополняется со временем, либо может быть восстановлена специальными зельями или аксессуарами, 
+        что делает его непростым и достаточно затратным персонажем на многих стадиях игры. 
+    <div class="text-lg py-8 px-6">Арсенал оружия:
+        <a href="#" class="flex text-brightRed">Жезлы и посохи;</a>
+        <a href="#" class="flex text-brightRed">Книги;</a>
+        <a href="#" class="flex text-brightRed">Скорострельное магическое оружие;</a>
+        <a href="#" class="flex text-brightRed">Прочие магически предметы.</a>
+    </div>
+</section>
+
+ <div class="" id="Summoner">
+    <H1 class="pt-5 py-5 px-5 text-center">Призыватель</H1>
+    <img class="my-6 mx-auto" height="220" width="220" src="img/summon.png" alt="">
+    <p class="px-4 max-w-3xl text-center">  Призыватель — класс, добавленный в версии 1.2. В отличие от других классов призыватель наносит урон не напрямую,
+         а с помощью призванных существ (например, слизней, пигмеев и шершней).По умолчанию можно призвать только одного миньона, однако,
+         с помощью некоторых видов брони, аксессуаров и баффов, этот лимит возможно увеличить до 11.
+         Призыватель хорошо справляется с большими скоплениями врагов, но из-за низкого показателя брони очень требователен к навыкам игрока, особенно при битве с боссами.  
+    <div class="text-lg py-8 px-6">Арсенал оружия:
+        <a href="#" class="flex text-brightRed">Хлысты;</a>
+        <a href="#" class="flex text-brightRed">Прислужники;</a>
+        <a href="#" class="flex text-brightRed">Часовые.</a>
+    </div>
+ </div>
+
+ <!-- text - start -->
+ <div class="mb-10 md:mb-16">
+    <h2
+        class="text-darkBlue text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6"
+    >
+       Вопросы на другие темы.
+    </h2>
+
+    <p
+        class="max-w-screen-md text-darkGrayishBlue md:text-lg text-center mx-auto"
+    >
+        
+    </p>
+</div>
+<!-- text - end -->
+
+<div class="flex flex-col max-w-screen-sm border-t mx-auto">
+    <!-- question - start -->
+    <div class="border-b">
+        <div
+            class="flex justify-between text-black hover:text-darkGrayishBlue active:text-darkGrayishBlue cursor-pointer gap-2 py-4"
+        >
+            <span
+                class="md:text-lg font-semibold transition duration-100">
+                Какие особенности каждого класса?</span>
+            
+
+            <span class="">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                    />
+                </svg>
+            </span>
+        </div>
+
+        <p class="hidden text-darkGrayishBlue mb-4">
+            This is a section of some simple filler text, also
+            known as placeholder text. It shares some
+            characteristics of a real written text but is random
+            or otherwise generated. It may be used to display a
+            sample of fonts or generate text for testing.
+        </p>
+    </div>
+    
+    <!-- question - end -->
+
+    <!-- question - start -->
+    <div class="border-b">
+        <div
+            class="flex justify-between text-black hover:text-darkGrayishBlue cursor-pointer gap-2 py-4"
+        >
+            <span
+                class="md:text-lg font-semibold transition duration-100"
+                >Какие предметы используют определенные классы?</span
+            >
+
+            <span class="active:text-brightRedLight00">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                    />
+                </svg>
+            </span>
+        </div>
+
+        <p class="hidden text-gray-500 mb-4">
+            This is a section of some simple filler text, also
+            known as placeholder text. It shares some
+            characteristics of a real written text but is random
+            or otherwise generated. It may be used to display a
+            sample of fonts or generate text for testing.
+        </p>
+    </div>
+    <!-- question - end -->
+
+    <!-- question - start -->
+    <div class="border-b">
+        <div
+            class="flex justify-between text-black hover:text-darkGrayishBlue cursor-pointer gap-2 py-4"
+        >
+            <span
+                class="md:text-lg font-semibold transition duration-100"
+                >Какие классы игры существуют в игре "Террария"?</span
+            >
+
+            <span class="active:text-brightRedLight00">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                    />
+                </svg>
+            </span>
+        </div>
+
+        <p class="hidden text-gray-500 mb-4">
+            This is a section of some simple filler text, also
+            known as placeholder text. It shares some
+            characteristics of a real written text but is random
+            or otherwise generated. It may be used to display a
+            sample of fonts or generate text for testing.
+        </p>
+    </div>
+    </div>
+    <!-- question - end -->
+
+
+
+ <footer class="bg-veryDarkBlue ">
+    <div class="container flex flex-col-reverse justify-between 
+                px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0 ">
+
+        <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+                Copyright &copy; 2022, All Rights Reserved
+            </div>
+            <div>
+                <img src="img/logo.svg" class="h-8" alt="" />
+            </div>
+            <div class="flex justify-center space-x-4">
+                   <!-- link 1 -->
+                <a href="#">
+                    <img src="img/y.png" alt="" class="h-8">
+                </a>
+                <!-- link 2 -->
+                <a href="#">
+                    <img src="img/t.png" alt="" class="h-8">
+                </a>
+                <!-- link 3 -->
+                <a href="#">
+                    <img src="img/t2.png" alt="" class="h-8">
+                </a>
+                <!-- link 4 -->
+                <a href="#">
+                    <img src="img/p.png" alt="" class="h-8">
+                </a>
+
+        </div>
+        
+        <div class="flex justify-around space-x-32 ">
+            <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Воин</a>
+            <a href="#" class="hover:text-brightRed">Стрелок</a>
+            <a href="#" class="hover:text-brightRed">Маг</a>
+            <a href="#" class="hover:text-brightRed">Призыватель</a>
+            
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+                <a href="#" class="hover:text-brightRed">Career</a>
+                <a href="#" class="hover:text-brightRed">Community</a>
+                <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="flex flex-col justify-between">
+            <form>
+                <div class="flex spacxe-x-3">
+                    <input type="text" class="flex-1 px-4 rounded-fukk focus:outline-none" placeholder="Введите текст"/>
+                    <button class=" px-6 py-12 text-white rouded-full bg-brightRed hover:bg-brightRed focus:outline-none">
+                        Go
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="hidden text-white md:block">
+            Copyright &copy; 2022, All Rights Reserved
+        </div>
+        <div class="flex flex-col justify-between">
+
+        </div>
+
+    </div>
+</footer>
+    <script src="https://cdn.lsdelivr.net /npm/tw-elements /dist/js/index.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
